@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
             if(nowaNotatka.isNotEmpty()){
                 listaZadan.add(nowaNotatka)
                 adapter.notifyDataSetChanged()
+                editNote.text.clear()
             }
         }
 
